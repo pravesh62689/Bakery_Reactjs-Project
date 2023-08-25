@@ -1,0 +1,24 @@
+.navbar {
+  padding: 10px 15px;
+  background: #fafafa;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: max-content;
+}
+
+.containerLink {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.link {
+  color: #000000;
+  padding: 0 10px;
+}
+.links {
+  color: #000000cb;
+  padding: 0 10px;
+}

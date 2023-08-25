@@ -1,0 +1,32 @@
+.latestContainer {
+  text-align: center;
+  color: #0000005d;
+  background-color: rgb(241, 241, 241);
+  padding: 120px 120px;
+}
+
+.latestText{
+    margin: 0;
+    
+}
+
+.cardContainer {
+  display: flex;
+  margin: 0 45px;
+}
+
+.cardMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.cardContent{
+    text-align: left;
+    margin: 10px 5px;
+}
+
+.cardPara{
+    font-size: 1.1rem;
+    line-height: 1rem;
+}

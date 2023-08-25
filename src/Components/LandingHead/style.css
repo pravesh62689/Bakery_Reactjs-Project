@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+.container {
+  margin: 80px auto 0 auto;
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:auto;
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url("https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_640.jpg") ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: max-content;
+}
+
+.landingContainer {
+    padding: 80px 80px;
+  height:max-content;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.landingH1 {
+    font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 70px;
+}
+
+.landingP {
+  text-align: center;
+  width: 60vw;
+  font-size: 20px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+
+.button {
+  margin: 30px 10px;
+}
+
+.button1 {
+  color: "white";
+  width: 140px;
+  border: 2px inset white;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.button2 {
+  color: "white";
+  width: 140px;
+  border: 2px solid #dba05cdf;
+  background-color: #dba05cdf;
+  border-radius: 0px;
+}
+
+.button1:hover {
+  border-color: rgb(228, 228, 228);
+}
+
+.button2:hover {
+  background-color: #dba05cdf;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+}
+
+.downArrow{
+    position: relative;
+    bottom: -30px;
+    
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}

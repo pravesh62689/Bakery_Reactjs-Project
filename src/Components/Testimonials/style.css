@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+
+.testimonialContainer {
+  background-color: white;
+  color: #0000005d;
+  text-align: center;
+  padding: 70px 150px  120px 150px;
+}
+
+.headingT{
+    padding-top: 80px;
+    font-weight: 600;
+}
+
+
+.span {
+  line-height: 30px;
+  border-bottom: 3px solid #aa7b41f7;
+  width: max-content;
+  padding-bottom: 10px;
+}
+.reviewContainer {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.reviewSubContainer {
+  width: 18%;
+}
+
+.rating{
+ color: #aa7b41f7;
+ font-size: 2rem;
+ line-height: 1px;
+}
+
+.colorText {
+  color: #000000;
+}
+
+.fontText{
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+}

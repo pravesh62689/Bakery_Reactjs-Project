@@ -1,0 +1,27 @@
+.contactContainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_640.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max-content;
+  font-weight: 200;
+}
+
+.contactCardSubContainer {
+  width: 45%;
+}
+
+.input {
+  color: white;
+  width: 90%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.581);
+}
+
+.input::placeholder {
+  color: rgb(207, 207, 207); 
+  font-size: 1.1rem;
+}
